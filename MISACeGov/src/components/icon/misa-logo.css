@@ -1,0 +1,19 @@
+.nav-logo{
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-size: 36px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.nav-app-logo{
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_cegoLogo_new.89475e3e.svg');
+    margin-right: 12px;
+}
+
+.nav-logo-user{
+    background-image: url('https://id.misa.vn/image/getavatar?userId=74c75e29-bc30-4210-87e2-d61a38f91a21&width=64&height=64');
+    border-radius: 50%;
+}

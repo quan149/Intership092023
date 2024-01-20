@@ -1,0 +1,113 @@
+input {
+    padding: 12px 12px;
+    height: 36px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 3.5px;
+    box-sizing: border-box;
+}
+
+input:hover {
+    border-color: #afafaf;
+}
+
+input:focus {
+    border-color: #50b83c;
+    outline: 1px;
+}
+
+.input-warning-validate {
+    border-color: rgb(255, 114, 114);
+}
+
+.disable-input {
+    background-color: #ececec;
+    pointer-events: none;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 4px solid #bcbcbc;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:focus {
+    outline: 2px solid blue;
+    outline-offset: -1px;
+    cursor: pointer;
+}
+
+input[type="number"] {
+    text-align: right;
+
+    padding: 0 32px
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+}
+
+input[type="radio"]:focus {
+    outline: 3px solid rgb(50, 0, 229);
+    outline-offset: -1px;
+    outline-style: auto;
+    cursor: pointer;
+}
+
+.required-information::after {
+    content: ' *';
+    color: #ff0000
+}
+
+.input-with-action {
+    position: relative;
+}
+
+.input-search-item {
+    padding: 12px 32px 12px 40px;
+}
+
+.m-text-field-input {
+    width: 100%;
+    height: 80px;
+    padding: 8px 12px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3.5px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.m-text-field-input:hover {
+    border-color: #afafaf;
+}
+
+.m-text-field-input:focus {
+    border-color: #50b83c;
+    outline: none;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.title-option {
+    margin-bottom: 3px;
+}
+
+.icon-delete-data{
+    position: absolute;
+}
+
+.icon-change-value {
+    position: absolute; 
+    right: 10px; 
+    top: 32px;
+}

@@ -1,0 +1,223 @@
+.nav-icon {
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer;
+    display: flex;
+}
+
+.icon-dialog {
+    width: 48px;
+    height: 48px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer;
+}
+
+.nav-app {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -192px 0;
+}
+
+.icon-notice {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -24px -48px;
+}
+
+.icon-help {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -48px -48px;
+}
+
+.icon-otheraction {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_more_gray.61bc65fb.svg');
+}
+
+.icon-document {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_document_help.5a303db8.svg');
+}
+
+.icon-setting {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -264px -168px;
+}
+
+.icon-overview {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_dashboard_default.110fa5f3.svg');
+}
+
+.icon-emulation {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_movement_default.102c9e3d.svg');
+}
+
+.icon-remunerative {
+    background-image: url("https://cegovapp.misacdn.net/cegov/img/ic_reward_default.156d6945.svg");
+}
+
+.icon-dicision {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_decision_menu_default.cae653f2.svg');
+}
+
+.icon-file {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_profile_default.d730fb8f.svg');
+}
+
+.icon-search {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_search_default.903d371b.svg');
+}
+
+.icon-category {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_category_default.d46f95b8.svg');
+}
+
+.menu-category-active {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_category.f257fcc6.svg');
+}
+
+.icon-report {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_report_default.67157268.svg');
+}
+
+.icon-instruction {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_guide_default.186420dc.svg');
+}
+
+.icon-collapse {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_toggle.4abb3c52.svg');
+    display: inline-block;
+    transition-duration: .4s;
+}
+
+.icon-expansion {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_toggle.4abb3c52.svg');
+    display: inline-block;
+}
+
+.icon-arrow-right {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_arrow_black_right.c6cd6189.svg');
+}
+
+.icon-arrow-right-active {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_arrow_color_right.9db568c7.svg');
+}
+
+.icon-filter {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -96px -48px;
+}
+
+.icon-filter-active {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_filter_active.582f4745.svg');
+}
+
+.icon-increase {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -112px -120px;
+    width: 16px;
+    height: 12px;
+}
+
+.icon-dropdown {
+    width: 12px;
+    height: 12px;
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/ic_drop-down.fa70eead.svg');
+}
+
+.icon-add {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -192px -96px;
+}
+
+.icon-next {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -240px 0;
+}
+
+.icon-next:hover {
+    background-color: rgb(216, 216, 216);
+    border-radius: 2px;
+}
+
+.icon-next-disable {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -216px 0;
+    pointer-events: none;
+}
+
+.icon-edit {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') 0px -72px;
+}
+
+.icon-more {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -168px -48px;
+}
+
+.icon-exit {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -240px -24px;
+}
+
+.icon-success {
+    background-image: url(../../assets/icon/success-48.png);
+    transform: scale(1.33);
+}
+
+.icon-success-input {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -336px -24px;
+}
+
+.icon-error-input {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -336px -48px;
+}
+ 
+.icon-question {
+    background-image: url(../../assets/icon/question-48.png);
+}
+
+.icon-error {
+    background-image: url(../../assets/icon/error-48.png);
+}
+
+.icon-selected {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -192px -24px;
+}
+
+.icon-delete {
+    background: transparent url('https://cegovapp.misacdn.net/cegov/img/sprites.06b14dc5.svg') -120px -24px;
+}
+
+.icon-excel-input {
+    background-image: url('https://cegovapp.misacdn.net/cegov/img/add_attachment.c604b695.svg');
+    width: 334px;
+    height: 110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.icon-excel-input:hover {
+    cursor: pointer;
+}
+
+.icon-with-input {
+    position: absolute;
+}
+
+.icon-image {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.active {
+    background-color: #2979ff;
+}
+
+.disable {
+    background-color: #ff2929;
+}
+
+.background-round-icon {
+    display: flex;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid rgb(224, 224, 224);
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}

@@ -1,0 +1,99 @@
+.example-content-message {
+    background-color: rgb(236, 251, 255);
+    border: 1px solid rgb(252, 252, 252);
+    width: 500px;
+    border-radius: 5px;
+    padding: 16px 16px 16px 16px;
+    display: flex;
+    margin-top: 10px;
+    box-shadow: 0 0 16px rgba(23, 27, 42, .24);
+    position: absolute;
+    top: 16px;
+    left: calc(50% - 250px);
+    z-index: 2000;
+}
+
+.content-message {
+    display: flex;
+    align-items: center;
+}
+
+.message-space {
+    flex-grow: 1;
+}
+
+.content-message-icon {
+    width: 24px;
+    height: 24px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.message-icon {
+    margin: 5px;
+    color: white
+}
+
+.success-content-icon {
+    background-color: #73C663;
+}
+
+.error-content-icon {
+    background-color: red;
+}
+
+.warning-content-icon {
+    background-color: orange;
+}
+
+.message-text {
+    text-align: left;
+    font-weight: 400;
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+.message-primary {
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+
+.message-action {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.message-action:hover {
+    cursor: pointer;
+}
+
+.message-action:active {
+    color: red;
+}
+
+.notify-success {
+    color: #73C663;
+}
+
+.warning {
+    color: orange;
+}
+
+.error {
+    color: red;
+}
+
+.message-exit-icon {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.message-exit-icon:hover {
+    cursor: pointer;
+}
+
+.message-exit-icon:active {
+    color: red;
+}

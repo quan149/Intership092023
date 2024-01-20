@@ -1,0 +1,235 @@
+.excel-form-background {
+    position: absolute;
+    background-color: rgb(70, 70, 70, 0.4);
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    z-index: 1998;
+}
+
+.excel-form-content {
+    position: absolute;
+    width: 50%;
+    min-width: 642px;
+    background-color: #fff;
+    border-radius: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.excel-form-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.excel-form-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.excel-form-progress {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-title {
+    font-size: 13px;
+    margin-top: 2px;
+    margin-left: 4px;
+}
+
+.progress-bar {
+    margin: 0 8px;
+    margin-top: 2px;
+}
+
+.checked {
+    color: #FF0000;
+    font-weight: 700;
+}
+
+.success {
+    color: #0800ff
+}
+
+.custom-radio {
+    --checked-color: #ff0000;
+}
+
+.custom-radio-success {
+    --checked-color: #0800ff;
+}
+
+.custom-radio:checked {
+    accent-color: var(--checked-color);
+}
+
+.custom-radio-success:checked {
+    accent-color: var(--checked-color);
+}
+
+.custom-radio:checked + label {
+    color: #FF0000;
+    font-weight: 700;
+}
+
+.custom-radio-success:checked + label {
+    color: #0800ff;
+    font-weight: 700;
+}
+
+.excel-form-input {
+    margin-top: 24px;
+    height: 100%;
+    border: 2px dotted #a2a2a2;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.excel-sheet-input {
+    display: flex;
+    flex-direction: column;
+    height: 390px;
+    position: relative;
+}
+
+.excel-form-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px dotted #a2a2a2;
+    padding: 16px 24px;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-excel-combobox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin-top: 12px;
+}
+
+.list-file-selected {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    right: 0;
+    max-height: 294px;
+    overflow: auto;
+}
+
+.list-file-selected::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.list-file-selected::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.list-file-selected::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.list-file-selected::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.detail-file-selected {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    border-bottom: 2px dotted #a2a2a2;
+    box-sizing: border-box;
+    padding: 0 16px;
+}
+
+.title-file {
+    width: 200px;
+    margin-left: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.size-file {
+    margin-left: 24px;
+    width: 70px;
+}
+
+.status-file {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+}
+
+.status-content {
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.status-title {
+    margin-left: 4px;
+}
+
+.btn-change-file {
+    margin-left: 24px;
+    color: rgb(0, 98, 255);
+}
+
+.btn-change-file:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.excel-validate-data {
+    height: 342px;
+    padding: 24px 24px;
+}
+
+.validate-record {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-validate-info {
+    height: 150px;
+    border-radius: 5px;
+    width: 32%;
+}
+
+.title-validate-info {
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    color: white
+}
+
+.number-record {
+    font-size: 50px;
+    font-weight: 700;
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

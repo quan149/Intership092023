@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    height: 56px;
+    background-color: #fff;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.nav-app-content{
+    padding: 0 16px;
+}
+
+.nav-logo-content{
+    display: flex;
+    align-items: center;
+}
+
+.logo-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header_space{
+    flex: 1;
+    width: 0;
+    height: 0;
+}
+
+.header_right{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

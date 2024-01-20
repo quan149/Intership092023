@@ -1,0 +1,90 @@
+
+.misa-combobox {
+    position: relative;
+}
+
+.select-list-item{
+    position: absolute;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 3.5px;
+    display: none;
+    z-index: 1000;
+    box-shadow: 0 0 16px rgba(23,27,42,.24);
+}
+
+.list-show {
+    display: block;
+    max-height: 150px;
+    overflow: auto;
+}
+
+.list-show::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.list-show::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.list-show::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.list-show::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.show-above {
+    bottom: 36px;
+}
+
+.option-select{
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px;
+    border-radius: 4px;
+    height: 32px;
+}
+
+.option-select:hover{
+    background-color: rgb(252, 230, 230);
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #dfebff;
+    pointer-events: none;
+    color: rgb(0, 162, 255);
+}
+
+.position-action-icon{
+    bottom: 12px;
+    right: 10px;
+}
+
+.invalid-icon{
+    bottom: 36px;
+    right: 10px;
+}
+
+.invalid-show{
+    top: 64px
+}
+
+.icon-dropdown-combobox {
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 36px;
+   height: 36px;
+   cursor: pointer;
+   bottom: 0;
+   right: 0; 
+}

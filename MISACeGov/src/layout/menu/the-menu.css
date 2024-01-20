@@ -1,0 +1,72 @@
+.menu {
+    padding: 0 8px;
+    height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
+    box-shadow: inset 0 1.5px 2px 0 rgba(0, 0, 0, .1);
+}
+
+.menu-list-item {
+    flex: 1;
+    overflow-y: scroll;
+}
+
+.menu-list-item::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-item {
+    padding: 8px 5px;
+    display: flex;
+    align-items: center;
+    margin: 8px 8px;
+}
+
+.menu-item:hover {
+    border-radius: 8px;
+    background-color: rgb(230, 246, 243);
+    color: red;
+    cursor: pointer;
+}
+
+.menu-item-border {
+    box-shadow: inset 0 1.5px 2px 0 rgba(0, 0, 0, .1);
+    margin: 12px 8px;
+    height: 2px;
+}
+
+.menu-icon-title{
+    position: relative;
+    font-weight: 500;
+    margin-left: 16px;
+    width: 100px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.menu-item-footer {
+    bottom: 12px;
+    border-radius: 5px;
+    background-color: rgb(223, 229, 232);
+}
+
+.menu-item-footer:hover {
+    cursor: pointer;
+}
+
+.menu-title-footer {
+    font-weight: 500;
+    margin-left: 16px;
+}
+
+a:any-link {
+    text-decoration: none;
+}
+
+.router-link-active {
+    background-color: #ffc6b4;
+    color: #ff6d00;
+    border-radius: 8px;
+    pointer-events: none;
+}

@@ -1,0 +1,43 @@
+* {
+    font-family: GoogleSans;
+    font-size: 14px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@font-face {
+    font-family: GoogleSans;
+    src: url(../assets/font/GoogleSansOTF/GoogleSans-Regular.otf);
+}
+
+@font-face {
+    font-family: Google sans;
+    src: url(../assets/font/GoogleSansOTF/GoogleSans-Medium.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Google sans;
+    src: url(../assets/font/GoogleSansOTF/GoogleSans-Bold.otf);
+    font-weight: 700;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.content-app{
+    display: flex
+}
+
+.required-information::after{
+    content: ' *';
+    color: #ff0000
+}

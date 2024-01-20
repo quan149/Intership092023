@@ -1,0 +1,42 @@
+.content_filter{
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+    border-radius: 4px;
+    box-shadow: 0 0 16px rgba(23,27,42,.24);
+}
+
+.content_filter-header{
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    justify-content: space-between;
+}
+
+.content_filter-header-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content_filter-body {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px;
+}
+
+.filter-criteria {
+    margin-top: 16px;
+    box-sizing: border-box;
+}
+
+.content_filter-footer{
+    margin-top: 16px;
+    border-top: 1px solid #ddd;
+    background-color: #fbfbfe;
+    padding: 18px 24px;
+    display: flex;
+    justify-content: end;
+}

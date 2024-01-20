@@ -1,0 +1,156 @@
+.table-container {
+    max-height: calc(100vh - 208px);
+    overflow-y: auto;
+    overflow-x: auto;
+    margin-top: 16px;
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    background: #fff;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+
+.table-container::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.table-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+table {
+    min-width: 100%;
+    max-width: 100vh;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0 16px;
+    height: 40px;
+    white-space: nowrap;
+}
+
+thead {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 1;
+    box-shadow: inset 0 -1px 0 rgb(230, 230, 230)
+}
+
+thead::after {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    box-sizing: border-box;
+}
+
+tbody tr {
+    border-bottom: 1px solid rgb(230, 230, 230);
+    font-weight: 400;
+}
+
+.selected {
+    background-color: #e0ebff;
+}
+
+thead tr:hover {
+    cursor: pointer;
+}
+
+th, td{
+    border-right: 1px solid rgb(230, 230, 230);
+}
+
+tbody tr:hover {
+    cursor: pointer;
+    background-color: rgb(252, 230, 230);
+}
+
+.row-table {
+    position: relative;
+}
+
+.row-selected{
+    background-color: #dfebff;
+}
+
+.table-status-column, .action-in-row, .title-status {
+    display: flex;
+    align-items: center;
+}
+
+.table-status-column {
+    position: relative;
+    justify-content: space-between;
+}
+
+.title-status {
+    width: 130px
+}
+
+.action-in-row {
+    width: 80px;
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    justify-content: space-between;
+    visibility: hidden;
+    margin-left: 8px;
+}
+
+.hovered {
+    visibility: visible;
+}
+
+.more-action {
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.under {
+    right: 10px;
+    top: 40px;
+}
+
+.above {
+    right: 10px;
+    bottom: 40px;
+}
+
+.empty-table-item {
+    position: absolute;
+    color: #9e9fab;
+    padding: 12px 16px;
+}
+
+
+.option-select-action{
+    padding: 8px 12px;
+}
+
+.option-disable {
+    color: #e6e6e6;
+    pointer-events: none;
+}
+
+.option-select-action:hover{
+    background-color: rgb(252, 230, 230);
+    cursor: pointer;
+}
+
+.checkbox-cell {
+    text-align: center;
+}

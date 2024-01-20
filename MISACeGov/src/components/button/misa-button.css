@@ -1,0 +1,134 @@
+.btn {
+    padding: 0 12px 0 12px;
+    height: 36px;
+    border-radius: 4px;
+    font-size: 14px;
+    min-width: 80px;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 500;
+    opacity: 100%;
+    box-sizing: border-box;
+}
+
+.btn-only-icon{
+    min-width: 40px;
+}
+
+.btn:focus {
+    outline: 1px solid var(--color-primary);
+}
+
+.btn-primary {
+    background: #2979ff;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0c60f1;
+    cursor: pointer;
+}
+
+.btn-primary:focus {
+    outline: 2px solid#024fd5;
+    cursor: pointer;
+}
+
+.btn-primary:active {
+    background-color: #0008f0;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    color: #1F1F1F;
+    background-color: #fff;
+    border: 1px solid #E6E6E6;
+}
+
+.btn-secondary:focus {
+    outline: 2px solid rgb(186, 185, 185);
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.btn-secondary:active {
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+.btn-delete {
+    border: 1px solid #ef5350;
+    color: #ef5350;
+    background-color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #fbd6d5;
+    cursor: pointer;
+}
+
+.btn-delete:focus {
+    outline: 2px solid#fbd6d5ea;
+    cursor: pointer;
+}
+
+.btn-delete:active {
+    background-color: #fec9c8;
+    cursor: pointer;
+}
+
+.btn-use {
+    border: 1px solid #2979ff;
+    color: #2979ff;
+    background-color: #fff;
+}
+
+.btn-use:hover {
+    background-color: #d5e5ff;
+    cursor: pointer;
+}
+
+.btn-use:focus {
+    outline: 2px solid #c1d9fe;
+    cursor: pointer;
+}
+
+.btn-use:active {
+    background-color: #b3cfff;
+    cursor: pointer;
+}
+
+.btn-hidden{
+    display: none;
+}
+
+.btn-filter {
+    display: flex;
+    flex-direction: row;
+    width: 90px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.btn-disable{
+    color: #9c9c9c;
+    pointer-events: none;
+    background-color: #e6e6e6;
+    border: 1px solid #d0d0d0;
+}
+
+.btn-with-action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-btn {
+    font-weight: 400;
+}
